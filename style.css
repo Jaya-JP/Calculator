@@ -1,0 +1,44 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+   body{
+     background-color: rgb(211, 210, 210);
+     display: flex;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+   }
+   .cal{
+     background-color: #140202;
+     height: 300px;
+     width: 300px;
+     display: grid;
+     grid-template-columns: 1fr  1fr  1fr 1fr ;
+     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+     gap: 5px;
+     padding: 5px;
+     border-radius: 5px;
+
+   }
+   .a{
+     grid-column-start: 1;
+     grid-column-end: 5;
+     border: none;
+     background-color: rgb(63, 62, 62);
+     text-align: end;
+     padding-right: 5%;
+     color: #ffffff;
+     font-size: 36px;
+   }
+   button{
+     font-size: 26px;
+     font-weight: 500;
+     border-radius: 5px;
+   }
+   button:hover{
+     background-color: rgb(68, 86, 107);
+     color: white;
+     font-weight: 600;
+   }
